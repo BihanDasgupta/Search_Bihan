@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <title>LLM Search Result</title>
+</head>
+<body>
+    <style>
+    body {
+        text-align: center; /* Center text horizontally */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh; /* Center text vertically using flexbox */
+        margin: 0; /* Remove default margin to ensure full-width */
+    }
+
+    .centered-text {
+        background-color: rgb(237, 74, 169); /* Just for better visibility */
+        padding: 20px;
+        display: inline-block; /* Center inline elements with margin: auto */
+    }
+    </style>  
+<div class="centered-text">
+<p>
+    <style>body{background:url('images/festive-shiny-glitter-texture.jpg') center/cover fixed no-repeat}</style>
+    <center>
+    <p style="font-family: Cursive" id="heading">
+        <style>
+            h1 {
+                position: fixed;
+                top: 35%;
+                left: 48%;
+                transform: translate(-50%, -50%);
+                font-size: 90px;
+            }
+        </style>
+        <FONT COLOR=White>꧁ R E S U L T ꧂
+    </p>
+    </center>
+    <center>
+    <p style="font-family: Cursive">
+        <style>
+            h1 {
+                position: fixed;
+                top: 35%;
+                left: 48%;
+                transform: translate(-50%, -50%);
+                font-size: 70px;
+                .styled-text {
+                    color: white; /* Set text color to white */
+                    font-weight: bold; /* Make the text bold */
+                }
+            }
+        </style>
+        <FONT COLOR=White>🎀 Q u e s t i o n 🎀:
+    </p>
+</center>
+<center>
+    <p style="font-family: Times New Roman">
+        <style>
+            h1 {
+                position: fixed;
+                top: 35%;
+                left: 48%;
+                transform: translate(-50%, -50%);
+                font-size: 50px;
+            }
+        </style>
+        <FONT COLOR=White>{{ query }} 
+    </p>
+</center>
+<center>
+    <p style="font-family: Cursive">
+        <style>
+            h1 {
+                position: fixed;
+                top: 35%;
+                left: 48%;
+                transform: translate(-50%, -50%);
+                font-size: 70px;
+
+                .styled-text {
+                    color: white; /* Set text color to white */
+                    font-weight: bold; /* Make the text bold */
+                }
+
+            }
+        </style>
+        <FONT COLOR=White>🎀 A n s w e r 🎀: 
+    </p>
+</center>
+<center>
+    <p style="font-family: Times New Roman">
+        <style>
+            h1 {
+                position: fixed;
+                top: 35%;
+                left: 48%;
+                transform: translate(-50%, -50%);
+                font-size: 50px;
+                
+            }
+        </style>
+        <FONT COLOR=White>{{ response }} 
+    </p>
+</center>
+<div class="attribution-message">
+    <p style="font-family: Cursive">
+    Image by <a href="https://www.freepik.com/free-photo/festive-shiny-glitter-texture_15456737.htm?query=pink%20wallpaper#from_view=detail_alsolike">Freepik</a>
+    </p>
+</div>
+</center>
+</p>
+</div>
+</body>
+</html>
