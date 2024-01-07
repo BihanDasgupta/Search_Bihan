@@ -4,7 +4,7 @@ from llama_index import SimpleDirectoryReader, GPTVectorStoreIndex
 
 app = Flask(__name__, static_url_path='')
 
-os.environ['OPENAI_API_KEY'] = "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"
+os.environ.get("OPENAI_API_KEY")
 
 file_path = '/Users/bihan/Desktop/career/website/bihan_corpus'
 
