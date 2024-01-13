@@ -2,9 +2,17 @@ from flask import Flask, render_template, request, jsonify
 import os
 from llama_index import SimpleDirectoryReader, GPTVectorStoreIndex
 
+from dotenv import load_dotenv
+
 app = Flask(__name__, static_url_path='')
 
-os.environ.get("OPENAI_API_KEY")
+load_dotenv()
+
+openai_api_key = os.getenv("OPENAI_API_KEY")
+
+if openai_api_key is None:
+    raise ValueError("OpenAI API key not found in environment variables. Reset it in the .env file.")
+
 
 file_path = '/Users/bihan/Desktop/career/website/bihan_corpus'
 
