@@ -17,7 +17,7 @@ if openai_api_key is None:
     raise ValueError("OpenAI API key not found in environment variables. Reset it in the .env file.")
 
 
-file_path = '/bihan_corpus'
+file_path = 'bihan_corpus'
 
 documents = SimpleDirectoryReader(file_path).load_data()
 
