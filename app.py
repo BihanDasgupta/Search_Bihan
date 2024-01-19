@@ -4,9 +4,6 @@ from llama_index import SimpleDirectoryReader, GPTVectorStoreIndex
 
 from dotenv import load_dotenv
 
-import streamlit
-
-
 app = Flask(__name__, static_url_path='')
 
 load_dotenv()
