@@ -4,7 +4,7 @@ from llama_index import SimpleDirectoryReader, GPTVectorStoreIndex
 
 from dotenv import load_dotenv
 
-app = Flask(__name__, static_url_path='')
+app = Flask(__name__)
 
 load_dotenv()
 
