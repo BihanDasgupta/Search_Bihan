@@ -63,7 +63,7 @@ def main():
     message = st.text_area("Search...")
 
     if message:
-        st.write("Typing...")
+        st.write("Searching...")
 
         result = generate_response(message)
 
