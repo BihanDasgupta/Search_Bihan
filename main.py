@@ -59,13 +59,13 @@ def main():
     # announcement = "(P.S. This was built in 3 days, imagine what I can do in 30 :sunglasses:)"
     # st.toast(body=announcement)
     # st.balloons()
-    html_string = "<h3>this is an html string</h3>"
+    html_string = '<h1><center><p style="font-family: Cursive" id="heading"><style>h1 {position: fixed;top: 35%;left: 48%;transform: translate(-50%, -50%);font-size: 45px;}</style><FONT COLOR=Magenta>꧁ B I H A N ꧂</p></center></h1>'
     st.markdown(html_string, unsafe_allow_html=True)
     message = st.text_area("Search...")
 
     if message:
         st.write("Searching...")
-
+        
         result = generate_response(message)
 
         st.info(result)
