@@ -59,7 +59,8 @@ def main():
     # announcement = "(P.S. This was built in 3 days, imagine what I can do in 30 :sunglasses:)"
     # st.toast(body=announcement)
     # st.balloons()
-
+    html_string = "<h3>this is an html string</h3>"
+    st.markdown(html_string, unsafe_allow_html=True)
     message = st.text_area("Search...")
 
     if message:
