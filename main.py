@@ -60,7 +60,7 @@ def main():
     # st.toast(body=announcement)
     # st.balloons()
 
-    message = st.text_area("Hi, I am Bihan Dasgupta. Ask me any questions you want to know about me.")
+    message = st.text_area("Search...")
 
     if message:
         st.write("Typing...")
