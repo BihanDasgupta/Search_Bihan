@@ -11,6 +11,7 @@ import os
 import openai
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
+
 load_dotenv()
 
 loader = CSVLoader(file_path="Bihan_Corpus.csv")
@@ -29,13 +30,10 @@ def retrieve_info(query):
 llm = ChatOpenAI(temperature=0, model="gpt-3.5-turbo-1106")
 
 template2 = """
-"
-You are to answer any question the user inputs. You can answer general questions, but also questions that are specific to Bihan Dasgupta. You have extensive knowledge about Bihan from the data fed to you below. When referring to Bihan, please use pronouns she/her/hers.  
+You are to answer any question the user inputs. You can answer general questions, but also questions that are specific to Bihan Dasgupta. You have extensive knowledge about Bihan from the data fed to you below. When referring to Bihan, please use pronouns she/her/hers.
 Question: {question}
 
 Data about Bihan: {relevant_data}
-
-"
 """
 
 prompt = PromptTemplate(
@@ -51,6 +49,7 @@ def generate_response(question):
     response = chain.run(question=question, relevant_data=relevant_data)
     return response
 
+
 def custom_info_box(message):
     html_code = f"""
     <div style='background-color: pink; padding: 10px; border-radius: 5px;'>
@@ -62,8 +61,8 @@ def custom_info_box(message):
 
 def main():
     st.set_page_config(
-        page_title="Get to know me", page_icon=":female-technologist:")
-    
+        page_title="All About Bihan")
+
     page_bg_img = """
     <style>
     [data-testid="stAppViewContainer"] > .main {{
@@ -87,10 +86,10 @@ def main():
     /* Styling for search bar */
     .stTextInput > div > div > input {
         background-color: pink;
-        color: magenta; /* Set text color to black */
-        border-color: magenta; /* Set border color to black */
+        color: magenta; /* Set text color */
+        border-color: magenta; /* Set border color */
         font-family: Cursive;
-        font-size: 20px; /* Set font size to 20px */
+        font-size: 20px; /* Set font size */
     }
     /* Styling for typing bar */
     .stTextInput > div > div > div > input {
@@ -99,8 +98,8 @@ def main():
     }
     /* Styling for placeholder text in search bar */
     .stTextInput > div > div > input::placeholder {
-        color: magenta; /* Set placeholder text color to magenta */
-        font-size: 30px; /* Set placeholder font size to 30px */
+        color: magenta; /* Set placeholder text color */
+        font-size: 30px; /* Set placeholder font size */
     }
     /* Styling for the Searching... text */
     .searching-text {
@@ -111,7 +110,7 @@ def main():
     .stInfo {
         background-color: pink;
     }
-
+    /* Styling for st.Button */
     .stButton {
             color: pink;
             margin-top: -85px; /* Adjust the top margin to move the button down */
@@ -123,14 +122,6 @@ def main():
 
     st.markdown(page_bg_img, unsafe_allow_html=True)
 
-
-    # announcement = "(P.S. This was built in 3 days, imagine what I can do in 30 :sunglasses:)"
-    # st.toast(body=announcement)
-    # st.balloons()
-    #background = '<style>body {background-image: url("https://images.unsplash.com/photo-1542281286-9e0a16bb7366");background-size: cover;}</style>'
-    #st.markdown(background, unsafe_allow_html=True)
-    #https://i.postimg.cc/dQffhwFj/pngtree-pink-background-pink-texture-plush-picture-image-1275137.png
-    #https://i.postimg.cc/QdcN6fmv/watercolor-sugar-cotton-clouds-background-52683-80661.jpg
     page_bg_img = f"""
     <style>
     [data-testid="stAppViewContainer"] > .main {{
@@ -146,13 +137,12 @@ def main():
     </style>
     """
 
-    st.markdown(page_bg_img, unsafe_allow_html=True)   
+    st.markdown(page_bg_img, unsafe_allow_html=True)
 
     html_string = '<h1><center><p style="font-family: Cursive; font-size: 25px; color: Magenta;" id="heading">  🎀🪞🩰🦢🕯️˖𓍢ִ໋🌷͙֒✧˚.🎀༘⋆꧁ B I H A N ꧂˚˖𓍢ִ໋🌷͙֒✧˚.🎀༘⋆🕯️🦢🩰🪞🎀  </p></center></h1>'
     st.markdown(html_string, unsafe_allow_html=True)
 
-
-    message = st.text_input("","🎀 Who Is Bihan...🎀")
+    message = st.text_input("", "🎀 Who Is Bihan...🎀")
     st.markdown(
         """
         <style>
@@ -166,10 +156,8 @@ def main():
         unsafe_allow_html=True,
     )
 
-    # Create a button in the sidebar
-
     st.button('⌕')
-    
+
     st.markdown(
         """
         <style>
@@ -185,19 +173,18 @@ def main():
 
     if message:
         st.write("<span class='searching-text'>ᶻ 𝗓 𐰁ᶻ 𝗓 𐰁S Searching... ᶻ 𝗓 𐰁ᶻ 𝗓 𐰁</span>", unsafe_allow_html=True)
-        
+
         result = generate_response(message)
 
-        RESULT = "\n「 🃜🃚🃖🃁🂭🂺🃜🃚🃖🃁🂭🂺🃜🃚🃖🃁🂭🂺🃜🃚🃖🃁「 ✦ 🎀↓↓↓↓🎀 ✦ 」🂭🂺🃜🃚🃖🃁🂭🂺🃜🃚🃖🃁🂭🂺🃜🃚🃖🃁🂭🂺🃜🃚🃖🃁\n\n\n" + str(result) +  "\n\n🃜🃚🃖🃁🂭🂺🃜🃚🃖🃁🂭🂺🃜🃚🃖🃁🂭🂺🃜🃚🃖🃁🂭🂺🃜🃚🃖🃁🂭🂺🃜🃚🃖🃁🂭🂺🃜🃚🃖🃁🂭🂺🃜🃚🃖🃁🂭🂺🃜🃚🃖🃁🂭🂺🃜🃜🃚🃖🃁」\n"
+        RESULT = "\n「 🃜🃚🃖🃁🂭🂺🃜🃚🃖🃁🂭🂺🃜🃚🃖🃁🂭🂺🃜🃚🃖🃁「 ✦ 🎀↓↓↓↓🎀 ✦ 」🂭🂺🃜🃚🃖🃁🂭🂺🃜🃚🃖🃁🂭🂺🃜🃚🃖🃁🂭🂺🃜🃚🃖🃁\n\n\n" + str(result) + "\n\n🃜🃚🃖🃁🂭🂺🃜🃚🃖🃁🂭🂺🃜🃚🃖🃁🂭🂺🃜🃚🃖🃁🂭🂺🃜🃚🃖🃁🂭🂺🃜🃚🃖🃁🂭🂺🃜🃚🃖🃁🂭🂺🃜🃚🃖🃁🂭🂺🃜🃚🃖🃁🂭🂺🃜🃜🃚🃖🃁」\n"
 
         st.write("<span class='searching-text'>🎀 RESULT 🎀</span>", unsafe_allow_html=True)
         custom_info_box(RESULT)
-    
+
     credit_string = """<div class="attribution-message">
         <a href="https://www.freepik.com/free-vector/watercolor-sugar-cotton-clouds-background_22378664.htm#query=pink%20pinterest%20wallpaper&position=41&from_view=search&track=ais&uuid=fb9dc042-f248-4686-b1f6-a7a023a19dcf">Image by pikisuperstar</a> on Freepik
     </div>"""
     st.markdown(credit_string, unsafe_allow_html=True)
-
 
 
 if __name__ == '__main__':
