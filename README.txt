@@ -23,9 +23,18 @@ The time it takes for the search engine to display results varies on the complex
 and how long it takes the LLM to respond, so please be patient with her! ⟡
 
 
+🎧ྀི Relevant Files🎧ྀི:
+
+୨ৎ main.py
+୨ৎ requirements.txt
+
+
 💗ྀིྀིHow To Run Locally💗ྀིྀི:
 
 streamlit run main.py
+
+⟡ Note: Cannot run locally without an api key. 
+Must add .env file and add OPEN_AI_API_KEY = *Insert API Key Here*. ⟡
 
 
 *ੈ✩‧₊˚༺☆༻*ੈ✩‧₊˚*ੈ✩‧₊˚༺☆༻*ੈ✩‧₊˚*ੈ✩‧₊˚༺☆༻*ੈ✩‧₊˚*ੈ✩‧₊˚⚞🎀・◦・⚟ ༺☆༻*ੈ✩‧₊˚*ੈ✩‧₊˚༺☆༻*ੈ✩‧₊˚༺☆༻*ੈ✩‧₊˚༺☆༻*ੈ✩‧₊˚༺☆༻
