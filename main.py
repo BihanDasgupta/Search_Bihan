@@ -30,6 +30,7 @@ def retrieve_info(query):
     page_contents_array = [doc.page_content for doc in similar_response]
     return page_contents_array
 
+
 # Call to OpenAI LLM, gpt-3.5-turbo-1106 (change model as needed)
 llm = ChatOpenAI(temperature=0, model="gpt-3.5-turbo-1106")
 
@@ -202,7 +203,7 @@ def main():
 
         # Write "RESULT" before desplaying the resulting response
         st.write("<span class='searching-text'>🎀 RESULT 🎀</span>", unsafe_allow_html=True)
-        # Display LLM's response in the custom info box 
+        # Display LLM's response in the custom info box
         custom_info_box(RESULT)
 
     # Add attribution message to credit background image's original artist (always give credit!)
