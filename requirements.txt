@@ -1,3 +1,5 @@
+# Requirements to Run/Build App
+
 fastapi[all]
 openai
 python-dotenv
