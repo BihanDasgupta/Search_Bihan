@@ -1,13 +1,61 @@
-Name,Bihan Dasgupta
-Gender,She/Her/Hers
-Emails,"dasguptb@uci.edu, bihand2005@gmail.com"
-Phone,+1-857-352-4363
-LinkedIn,BihanDasgupta
-GitHub,BihanDasgupta
-Address,"4029 Mesa Road, #102F, Irvine, CA 92617"
-About Me,"Freshman at The University of California, Irvine. BS in Computer Science major at the Donald Bren School of Information and Computer Sciences. Greatly interested in quantitative model building in science and cross-disciplinary fields using Natural Language Processing (NLP) and other machine learning algorithms. Persistent, resilient, ambitious, imaginative and creative student looking forward to fostering dreams of being a researcher and writer, supporting local and global communities."
-Education,"2023 - 2027,BS, Computer Science, Class of 2027,The Donald Bren School of Information and Computer Sciences,The University of California, Irvine,2019 - 2023,High School Graduate, Class of 2023,Brookline High School"
-Experience,"DARPA Funded Internship at INDRA Lab at Northeastern University,Summer 2023,Completed a six week paid internship at Northeastern University as a part of the Integrated Network and Dynamical Reasoning Assembler (INDRA) lab led by Professor Benjamin Gyori and funded by DARPA. Interacted with the OpenAI API and other large language models (LLMs) to output desirable INDRA statements from text. Tested various methodologies through prompt engineering. Demonstrated strong research and leadership, communication skills.,Research at Quantitative Criticism Lab (QCL),Summer 2021 - Current,Conducted original research in Natural Language Processing (NLP) to map out semantic associations in corpora on classical discourse. Directly collaborated with Dr. Joseph Dexter (Harvard University) and Professor Pramit Chaudhuri (UT Austin) through the research group QCL (https://www.qcrit.org). Abstract accepted for presentation at the Classical Association of the Middle West and South (CAMWS) 119th Annual Meeting, March 30, 2023, in Provo, Utah (https://camws.org). Presented abstract alongside collaborator as a panelist at the conference (https://www.youtube.com/watch?v=GUwPkCh3HXc). Contributed in writing paper to be submitted in classics journal by editor’s invitation. Demonstrated strong research and leadership, communication skills.,Internship at 4D Path Inc.,Summer 2021 & Summer 2022,Developed image analysis heuristics and wrote algorithm for the diagnosis of microcalcifications in breast cancer biopsy images. Directly worked under the mentorship of two pathologists from the University Hospital of Leeds and the National Health Services (NHS), UK. Work resulted in new Intellectual Property (IP) for the company. Demonstrated strong research, development, leadership, and communication skills. Obtained regulatory training on HIPAA.,AI Scholars Deep Dive Program, Inspirit AI,Spring 2021,AI in Healthcare - A Project-Based Intensive: Pursued an AI-based medical imaging project building scikit-learn models that can segment lung radiology images and diagnose pneumonia. Did other small-scale Graph Neural Network (GNN) and Convolutional Neural Network (CNN) based projects.,AI Scholars Program, Inspirit AI,Summer 2020,Introduction to AI: Pursued an AI ethics project using the COMPAS (Correctional Offender Management Profiling for Alternative Sanctions) dataset to detect racial bias when predicting the likelihood of recidivism in an offender by plotting confusion matrices with scikit-learn. Built a K-Nearest Neighbors (KNN) model with higher accuracy and reduced bias. Did other small-scale KNN, CNN and NLP based projects."
-References,"[1] Bihan Dasgupta, et. al. Racial and Disciplinary Language in Classical Studies: A Quantitative Study of Three Text Collections, abstract accepted for presentation at the Classical Association of the Middle West and South (CAMWS) 119th Annual Meeting, 2023, in Provo, Utah (https://camws.org); Paper to be submitted in Classics journal by editor’s invitation (manuscript available on request),[2] Bihan Dasgupta, et. al. Predicting Microcalcifications in Breast Cancer Biopsies from Geometric Constraints, selected as Intellectual Property (IP)/Proprietary Method; Patent to be filed (summary available on request)"
-Skills,"Programming: Python, Matlab, Java,Spoken: English, Bengali, French"
-Activities,"Clubs: Women in Computer Science (WICS), Video Game Development Club (VGDC)"
+Personal Information,,,
+Field,Value,
+Date of Birth,April 5, 2005,
+Pronouns,She/Her/Hers,
+Sex,Female,
+Gender,Woman,
+Race,South Asian,
+Place of Birth,Rehovot, Israel,
+Authorized to Work in The US,Yes,
+American Citizen,Yes,
+Date of Becoming American Citizen,February 2019,
+Moved to Massachusetts in,January 2008,
+Grew Up in Massachusetts,Yes,
+Currently Staying in,Irvine, Orange County, California,
+Open to Work,Yes,
+Work Preference,Paid Summer internships (any location) and/or paid several-month-long part-time jobs (remote or on-campus),
+Future Aspirations,Conducting and publishing original research, founding a startup, developing apps and products, publishing novels on the side,
+Is Beautiful,Yes,
+Is Amazing,Yes,
+Is Cool,Yes,
+
+Education,,,
+Year,Qualification,School/Institution,Description
+2023 - 2027,BS, Computer Science,The Donald Bren School of Information and Computer Sciences, The University of California, Irvine,
+2019 - 2023,High School Graduate,Brookline High School,
+,,,
+BS Computer Science Courses,,,
+Semester,Courses
+Winter 2024,Discrete Math for CS (I&C SCI 6D), Programming Software Libraries (I&C SCI 32), Introduction to Astronomy (Physice 20A),
+Fall 2023,Boolean Logic and Discrete Structure (ICS 6B), Introduction to Programming (I&C SCI 31), Introduction to Linguistics (LSCI 3),
+
+Experience,,,
+Position,Timeframe,Description
+Programmer for Video Game Project though the VGDC,Winter 2024,Worked in a team through the UCI chapter of the VGDC to develop a 3D video game. Programmed in C# in Unity. Contributed to programming, UI design, and composed original violin music for audio.,
+DARPA Funded Internship at INDRA Lab at Northeastern University,Summer & Fall 2023,Did a six-week paid internship at Northeastern University as a part of the Integrated Network and Dynamical Reasoning Assembler (INDRA) lab led by Professor Benjamin Gyori and funded by DARPA. Interacted with the OpenAI API and other large language models (LLMs) to output desirable INDRA statements from text. Tested various methodologies through prompt engineering. Demonstrated strong research and leadership, communication skills.,
+Research at Quantitative Criticism Lab (QCL),Summer 2021 - Current,Conducted original research in Natural Language processing (NLP) to map out semantic associations in corpora on Classical discourse. Directly collaborated with two professors from Harvard and UT Austin and the research group QCL (https://www.qcrit.org). Abstract accepted for presentation at the Classical Association of the Middle West and South (CAMWS) 119th Annual Meeting, March 30, 2023, in Provo, Utah (https://camws.org). Presented abstract alongside collaborator as a panelist at the conference. Contributed in writing paper to be submitted in Classics journal by editor's invitation. Demonstrated strong research and leadership, communication skills.,
+Internship at 4D Path Inc,Summer 2021 & Summer 2022,Developed image analysis heuristics and wrote an algorithm for the diagnosis of microcalcifications in breast cancer biopsy images. Directly worked under the mentorship of two pathologists from the University Hospital of Leeds and the National Health Services (NHS), UK. Work resulted in new Intellectual Property (IP) for the company. Demonstrated strong research, development, leadership, and communication skills. Obtained regulatory training on HIPAA.,
+AI Scholars Deep Dive Program, Inspirit AI,Spring 2021,AI in Healthcare - A Project-Based Intensive: Pursued an AI-based medical imaging project building sci-kit-learn models that can segment lung radiology images and diagnose pneumonia. Did other Graph Neural Networks (GNN) and Convolutional Neural Network (CNN) based projects.,
+AI Scholars Program, Inspirit AI,Summer 2020,Introduction to AI: Pursued an AI ethics project using the COMPAS (Correctional Offender Management Profiling for Alternative Sanctions) dataset to detect racial bias when predicting the likelihood of recidivation in an offender by plotting confusion matrices with scikit-learn. Built a KNN (K Nearest Neighbors) model with higher accuracy and reduced bias. Did other KNN, CNN, and NLP based projects.,
+
+Skills,,,
+Category,Skills
+Programming Languages,Python, Matlab, Java, C#, CSS, HTML, JavaScript
+Spoken Languages,English, Bengali, French
+Clubs,Women in Computer Science (WICS), Video Game Development Club (VGDC)
+
+Other Interests, Activities, and Achievements (Additional Information, non career-related),,,
+Category,Description
+Additional Clubs,Indian Subcontinental Club (ISC)
+High School Clubs,"Co-president of BHS South Asian Student Association (SASA) - Helped bring back SASA to Brookline High School and committed to planning and leading club meetings and events, building a stronger South Asian community (2022-2023).
+Co-president of BHS DoSomething Club - Organized/led meetings and planned fundraising events in support of various social justice causes (2022-2023).
+Member of BHS Environmental Justice Club (2022-2023), BHS Neuroscience Club (2021-2022), BHS Slam Poetry Club (2019-2020), Brookline Literacy Partnership Club (2019-2023)"
+High School Honors,"Brookline HUB Youth Award April 2023 Awarded for environmental justice work through the Affordable Housing Team in the Environmental Justice Club.
+National Honors Society - Fall 2022 - March 2023 Accepted into the National Honors Society for outstanding demonstration of community service and academic record. Awarded certificate for completing 20+ hours of community service as a member of the organization."
+High School Courses,"Mathematics: BC Calculus (AP), Pre Calculus, Algebra II Advanced, Geometry Advanced
+Science: Physics I , II and C (AP), Physics Honors, Astronomy Honors, Chemistry (AP), Chemistry I Honors, Biology Honors
+Computing: Computer Science A (AP), Python
+English: Responding to Literature Honors, Real World Literature Honors, American Literature Honors, Fiction and Film
+Social Studies: American History Honors, World history Honors, World History I
+World Language: French V (AP), French II, III, and IV Advanced"
+Hobbies/Achievements,"Creative Writing, Essays - 2020 - Current Completed an original literary work - 'Their Thoughts'. The story is about a middle school girl, Amarillys, overcoming barriers - a verse novel written in 7th Grade (2017); completed a sequel 'My Thought' to be published together with the first part (2022, manuscript available on request). Achieved high Junior Paper grade (98% score) in class, 11th Grade (2022) highest Essay grade (100% score) in class, 10th Grade (2021) highest Memoire grade (100% score) in class, 9th Grade (2020) Yearly participation in MA poetry day event
