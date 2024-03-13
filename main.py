@@ -16,7 +16,7 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 # Load CSV file (corpus of customized information)
 load_dotenv()
 
-loader = CSVLoader(file_path="Bihan-Corpus.csv")
+loader = CSVLoader(file_path="Bihan_Corpus.csv")
 documents = loader.load()
 
 embeddings = OpenAIEmbeddings()
@@ -35,14 +35,7 @@ def retrieve_info(query):
 llm = ChatOpenAI(temperature=0, model="gpt-3.5-turbo-1106")
 
 # Prompt template feeding question (user's query) and relavant data (corpus)
-"""
-You are to answer any question the user inputs. You can answer general questions, but also questions that are specific to Bihan Dasgupta. You have extensive knowledge about Bihan from the data fed to you below. Please use she/her/hers pronouns for Bihan.
-The data fed to you is organized into two categories: 'TXT.rtf' and 'Basic Information.rtf'. 
-Only use any information from 'Basic Information.rtf' if the user specifically asks a question about that information. For example, if the user specifically asks for Bihan's work authorization, then only can you give that information. Otherwise it is irrelevant. All identity-related information is especially irrelevant unless you are specifically asked about it.
-'Basic Information.rtf' is simply there for answers to extra questions a user might ask. The main focus should be on 'TXT.rtf', especially on research, internships, and other career-related things Bihan has done and/or is passionate about doing.
-By default, to the question 'Who Is Bihan?' please answer with information from 'TXT.rtf' only.
-If there is any information a user asks about Bihan that is not provided, information is either personal or unavailable. Please answer that this information is unaccessable to users.
-"""
+
 temp = """
 You are to answer any question the user inputs. You can answer general questions, but also questions that are specific to Bihan Dasgupta. You have extensive knowledge about Bihan from the data fed to you below. Please use she/her/hers pronouns for Bihan.
 If there is any information a user asks about Bihan that is not provided, information is either personal or unavailable. Please answer that this information is unaccessable to users.
