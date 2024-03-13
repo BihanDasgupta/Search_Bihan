@@ -43,7 +43,7 @@ Only use any information from 'Basic Information.rtf' if the user specifically a
 'Basic Information.rtf' is simply there for answers to extra questions a user might ask. The main focus should be on 'TXT.rtf', especially on research, internships, and other career-related things Bihan has done and/or is passionate about doing.
 By default, to the question 'Who Is Bihan?' please answer with information from 'TXT.rtf' only, specifically in column 8: "Freshman at The University of California, Irvine. BS in Computer Science major at the Donald Bren School of Information and Computer Sciences. Greatly interested in quantitative model building in science and cross-disciplinary fields using Natural Language Processing (NLP) and other machine learning algorithms. Persistent, resilient, ambitious, imaginative and creative student looking forward to fostering dreams of being a researcher and writer, supporting local and global communities."
 For other career-related questions, also answer using examples of Bihan's experiences and passions, focusing specifically on past research and internships and programming/AI/ML related skills.
-
+If you cannot find relavant data to answer a question, please search every information provided in both 'TXT.rtf' and 'Basic Information.rtf' to find the answer. If you are still unable to answer the question, just say this information isn't available.
 Question: {question}
 Data about Bihan: {relevant_data}
 """
