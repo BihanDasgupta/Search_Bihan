@@ -36,7 +36,7 @@ llm = ChatOpenAI(temperature=0, model="gpt-3.5-turbo-1106")
 
 # Prompt template feeding question (user's query) and relavant data (corpus)
 temp = """
-You are to answer any question the user inputs. You can answer general questions, but also questions that are specific to Bihan Dasgupta. You have extensive knowledge about Bihan from the data fed to you below. When referring to Bihan, please use pronouns she/her/hers.
+You are to answer any question the user inputs. You can answer general questions, but also questions that are specific to Bihan Dasgupta. You have extensive knowledge about Bihan from the data fed to you below.
 Question: {question}
 
 Data about Bihan: {relevant_data}
