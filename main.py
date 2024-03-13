@@ -16,7 +16,7 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 # Load CSV file (corpus of customized information)
 load_dotenv()
 
-loader = CSVLoader(file_path="Bihan_Corpus.csv")
+loader = CSVLoader(file_path="Bihan-Corpus.csv")
 documents = loader.load()
 
 embeddings = OpenAIEmbeddings()
