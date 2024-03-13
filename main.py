@@ -38,7 +38,7 @@ llm = ChatOpenAI(temperature=0, model="gpt-4")
 
 temp = """
 You are to answer any question the user inputs. You can answer general questions, but also questions that are specific to Bihan Dasgupta. You have extensive knowledge about Bihan from the data fed to you below. Please use she/her/hers pronouns for Bihan.
-If you cannot find relavant data to answer a question, please search every information provided to find the answer. If you are still unable to answer the question, just say this information isn't available.
+
 Question: {question}
 Data about Bihan: {relevant_data}
 """
