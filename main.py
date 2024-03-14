@@ -32,12 +32,12 @@ def retrieve_info(query):
 
 
 # Call to OpenAI LLM, gpt-3.5-turbo-1106 (change model as needed)
-llm = ChatOpenAI(temperature=0, model="gpt-4", max_tokens=500)
+llm = ChatOpenAI(temperature=0, model="gpt-4")
 
 # Prompt template feeding question (user's query) and relavant data (corpus)
 
 temp = """
-You are to answer any question the user inputs. You can answer general questions, but also questions that are specific to Bihan Dasgupta. You have extensive knowledge about Bihan from the data fed to you below. Please use she/her/hers pronouns for Bihan.
+You are to answer any question the user inputs. You can answer general questions, but also questions that are specific to Bihan Dasgupta. You have extensive knowledge about Bihan from the data fed to you below. Please use she/her/hers pronouns for Bihan. Please also keep responses within 200 words. 
 
 Question: {question}
 Data about Bihan: {relevant_data}
