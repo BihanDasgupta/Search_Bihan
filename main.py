@@ -49,7 +49,7 @@ prompt = PromptTemplate(
     template=temp
 )
 
-chain = LLMChain(llm=llm, prompt=prompt)
+chain = LLMChain(llm=llm, prompt=prompt, max_tokens_limit=500)
 
 
 def generate_response(question):
