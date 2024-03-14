@@ -20,13 +20,16 @@ Your search result will be displayed below shortly after.
 ⟡ Note: The LLM can only answer with the information I feed it, mainly professional and work-related questions.
 Knowledge on personal information is of course protected and limited. 
 The time it takes for the search engine to display results varies on the complexity of the question you asked
-and how long it takes the LLM to respond, so please be patient with her! ⟡
+and how long it takes the LLM to respond, so please be patient with her! 
+If the website is down, it likely means I am rebooting it to make updates go through. 
+It should be back up within 24 hours. ⟡
 
 
 🎧ྀི Relevant Files🎧ྀི:
 
 ୨ৎ main.py
 ୨ৎ requirements.txt
+୨ৎ Bihan_Corpus.csv
 
 
 💗ྀིྀིHow To Run Locally💗ྀིྀི:
