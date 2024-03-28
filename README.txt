@@ -41,6 +41,7 @@ It should be back up within 24 hours. ⟡
 ୨ৎ main.py
 ୨ৎ requirements.txt
 ୨ৎ Bihan_Corpus.csv
+୨ৎ static/images/6574814.jpg
 
 
 💗ྀིྀིHow To Run Locally💗ྀིྀི:
