@@ -32,7 +32,7 @@ def retrieve_info(query):
 
 
 # Call to OpenAI LLM, gpt-3.5-turbo-1106 (change model as needed)
-llm = ChatOpenAI(temperature=0, model="gpt-4")
+llm = ChatOpenAI(temperature=0, model="gpt-3.5-turbo")
 
 # Prompt template feeding question (user's query) and relavant data (corpus)
 
