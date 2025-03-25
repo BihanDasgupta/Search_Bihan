@@ -136,28 +136,12 @@ def main():
     # Markdown entire page styling
     st.markdown(page_bg_img, unsafe_allow_html=True)
 
-    # Add background image
-    page_bg_img = f"""
-    <style>
-    [data-testid="stAppViewContainer"] > .main {{
-    background-image: url("https://i.postimg.cc/QdcN6fmv/watercolor-sugar-cotton-clouds-background-52683-80661.jpg");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: local;
-    }}
-    [data-testid="stHeader"] {{
-    background: rgba(0,0,0,0);
-    }}
-    </style>
-    """
-    # Markdown background image styling
-    st.markdown(page_bg_img, unsafe_allow_html=True)
-
     # Add search engine heading above search bar
     html_string = """
-        <div style="display: flex; justify-content: center; align-items: center;">
-            <h1 id="main-title">🎀🪞🩰🦢🕯️˖𓍢ִ໋🌷͙֒✧˚.🎀༘⋆꧁ B I H A N ꧂˚˖𓍢ִ໋🌷͙֒✧˚.🎀༘⋆🕯️🦢🩰🪞🎀</h1>
+        <div style="width: 100%; display: flex; justify-content: center;">
+            <h1 id="main-title" style="text-align: center; font-family: 'Segoe UI Emoji', 'Apple Color Emoji', cursive; font-size: 30px; color: magenta;">
+                🎀🪞🩰🦢🕯️⋆꧁ B I H A N ꧂⋆🕯️🦢🩰🪞🎀
+            </h1>
         </div>
         """
     # Markdown header styling
