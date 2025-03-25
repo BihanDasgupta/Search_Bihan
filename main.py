@@ -108,7 +108,7 @@ def main():
     /* Search Bar */
     .stTextInput > div > div > input {
         background-color: pink;
-        color: magenta; /* Set text color */
+        color: white; /* Set text color */
         border-color: magenta; /* Set border color */
         font-family: Cursive;
         font-size: 20px; /* Set font size */
@@ -116,7 +116,7 @@ def main():
     /* Typing Bar */
     .stTextInput > div > div > div > input {
         background-color: white;
-        color: magenta;
+        color: white;
     }
     /* Placeholder Text in Search Bar */
     .stTextInput > div > div > input::placeholder {
@@ -125,7 +125,7 @@ def main():
     }
     /* "Searching..." Text */
     .searching-text {
-        color: magenta;
+        color: white;
         font-family: Cursive;
     }
     /* st.info Box */
