@@ -80,7 +80,7 @@ def main():
     <style>
     /* Image Background */
     [data-testid="stAppViewContainer"] > .main {{
-        background-image: url("https://i.postimg.cc/QdcN6fmv/watercolor-sugar-cotton-clouds-background-52683-80661.jpg");
+        background-image: url("https://images.unsplash.com/photo-1606788075761-3c61c037d4f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -113,7 +113,7 @@ def main():
     }
     /* Placeholder Text in Search Bar */
     .stTextInput > div > div > input::placeholder {
-        color: magenta; /* Set placeholder text color */
+        color: white; /* Set placeholder text color */
         font-size: 30px; /* Set placeholder font size */
     }
     /* "Searching..." Text */
