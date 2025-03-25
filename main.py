@@ -192,7 +192,7 @@ def main():
     # Conditions for if message is entered
     if message:
         # Write text that LLM is searching for answer ("Searching...")
-        st.write("<span class='searching-text'>ᶻ 𝗓 𐰁ᶻ 𝗓 𐰁S Searching... ᶻ 𝗓 𐰁ᶻ 𝗓 𐰁</span>", unsafe_allow_html=True)
+        st.write("<span class='searching-text'>ᶻ 𝗓 𐰁ᶻ 𝗓 𐰁  Searching... ᶻ 𝗓 𐰁ᶻ 𝗓 𐰁</span>", unsafe_allow_html=True)
 
         # Call function to generate LLM response from message, assign to variable result
         result = generate_response(message)
