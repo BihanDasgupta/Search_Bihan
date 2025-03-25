@@ -140,7 +140,7 @@ def main():
     html_string = """
         <div style="width: 100%; display: flex; justify-content: center;">
             <h1 id="main-title" style="text-align: center; font-family: 'Segoe UI Emoji', 'Apple Color Emoji', cursive; font-size: 30px; color: magenta;">
-                🎀🪞🩰🦢🕯️⋆ ꧁ B I H A N ꧂ ⋆🕯️🦢🩰🪞🎀
+                🎀🪞🩰🦢🕯️⋆꧁ B I H A N ꧂⋆🕯️🦢🩰🪞🎀
             </h1>
         </div>
         """
