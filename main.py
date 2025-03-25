@@ -9,6 +9,7 @@ from langchain.chains import LLMChain
 from dotenv import load_dotenv
 import os
 import openai
+import base64
 
 # Get OpenAI API Key
 openai.api_key = os.getenv("OPENAI_API_KEY")
@@ -69,18 +70,24 @@ def custom_info_box(message):
     st.markdown(html_code, unsafe_allow_html=True)
 
 
+def get_base64_image(image_path):
+    with open(image_path, "rb") as img_file:
+        return base64.b64encode(img_file.read()).decode()
+    
+
 def main():
     """ Main """
     # Set page title
     st.set_page_config(
         page_title="All About Bihan")
 
+    encoded_image = get_base64_image("static/images/6574814.jpg")
     # HTML Styling for page
     page_bg_img = """
     <style>
     /* Image Background */
     [data-testid="stAppViewContainer"] > .main {{
-        background-image: url("https://images.unsplash.com/photo-1606788075761-3c61c037d4f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80");
+        background-image: url("data:image/jpg;base64,{encoded_image}");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
