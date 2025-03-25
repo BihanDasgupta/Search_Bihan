@@ -82,9 +82,9 @@ def main():
     [data-testid="stAppViewContainer"] > .main {{
         background-image: url("https://i.postimg.cc/QdcN6fmv/watercolor-sugar-cotton-clouds-background-52683-80661.jpg");
         background-size: cover;
-        background-position: center center;
+        background-position: center;
         background-repeat: no-repeat;
-        background-attachment: local;
+        background-attachment: fixed;
     }}
     [data-testid="stHeader"] {{
         background: rgba(0,0,0,0);
@@ -155,7 +155,11 @@ def main():
     st.markdown(page_bg_img, unsafe_allow_html=True)
 
     # Add search engine heading above search bar
-    html_string = '<h1><center><p style="font-family: Cursive; font-size: 25px; color: Magenta;" id="heading">  🎀🪞🩰🦢🕯️˖𓍢ִ໋🌷͙֒✧˚.🎀༘⋆꧁ B I H A N ꧂˚˖𓍢ִ໋🌷͙֒✧˚.🎀༘⋆🕯️🦢🩰🪞🎀  </p></center></h1>'
+    html_string = """
+        <div style="display: flex; justify-content: center; align-items: center;">
+            <h1 id="main-title">🎀🪞🩰🦢🕯️˖𓍢ִ໋🌷͙֒✧˚.🎀༘⋆꧁ B I H A N ꧂˚˖𓍢ִ໋🌷͙֒✧˚.🎀༘⋆🕯️🦢🩰🪞🎀</h1>
+        </div>
+        """
     # Markdown header styling
     st.markdown(html_string, unsafe_allow_html=True)
 
