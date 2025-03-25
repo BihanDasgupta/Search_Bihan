@@ -146,7 +146,7 @@ def main():
     # Add search engine heading above search bar
     html_string = """
         <div style="width: 100%; display: flex; justify-content: center;">
-            <h1 id="main-title" style="text-align: center; font-family: 'Segoe UI Emoji', 'Apple Color Emoji', cursive; font-size: 30px; color: magenta;">
+            <h1 id="main-title" style="text-align: center; font-family: 'Segoe UI Emoji', 'Apple Color Emoji', cursive; font-size: 30px; color: white;">
                 🎀🩰🦢🕯️꧁ B I H A N ꧂🕯️🦢🩰🎀
             </h1>
         </div>
@@ -162,7 +162,7 @@ def main():
         <style>
         div.stButton {
             font-size: 30px;
-            color: white;
+            color: grey;
             background-color: pink:
         }
         </style>
