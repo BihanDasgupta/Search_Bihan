@@ -71,6 +71,7 @@ def custom_info_box(message):
 
 
 def get_base64_image(image_path):
+    """ Function to convert path to background image into base64 for Streamlit functionality """
     with open(image_path, "rb") as img_file:
         return base64.b64encode(img_file.read()).decode()
     
@@ -81,7 +82,9 @@ def main():
     st.set_page_config(
         page_title="All About Bihan")
 
+    # Take base64 of background image path, set it as variable to be used in styling
     encoded_image = get_base64_image("static/images/6574814.jpg")
+    
     # HTML Styling for page
     page_bg_img = """
     <style>
@@ -162,7 +165,7 @@ def main():
         <style>
         div.stButton {
             font-size: 30px;
-            color: grey;
+            color: black;
             background-color: pink:
         }
         </style>
@@ -207,7 +210,7 @@ def main():
         <a href="https://www.freepik.com/free-vector/watercolor-sugar-cotton-clouds-background_22378664.htm#query=pink%20pinterest%20wallpaper&position=41&from_view=search&track=ais&uuid=fb9dc042-f248-4686-b1f6-a7a023a19dcf">Image by pikisuperstar</a> on Freepik
     </div>"""
     # Markdown attribution message
-    st.markdown(credit_string, unsafe_allow_html=True)
+    #st.markdown(credit_string, unsafe_allow_html=True)
 
 
 # Run main()
