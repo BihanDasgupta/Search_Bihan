@@ -165,8 +165,8 @@ def main():
         <style>
         div.stButton {
             font-size: 30px;
-            color: black;
-            background-color: pink:
+            color: magenta;
+            background-color: white:
         }
         </style>
         """,
