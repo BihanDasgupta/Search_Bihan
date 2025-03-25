@@ -123,7 +123,7 @@ def main():
     }
     /* Placeholder Text in Search Bar */
     .stTextInput > div > div > input::placeholder {
-        color: white; /* Set placeholder text color */
+        color: magenta; /* Set placeholder text color */
         font-size: 30px; /* Set placeholder font size */
     }
     /* "Searching..." Text */
