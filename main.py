@@ -166,7 +166,7 @@ def main():
         div.stButton {
             font-size: 30px;
             color: magenta;
-            background-color: white:
+            background-color: pink:
         }
         </style>
         """,
